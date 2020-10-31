@@ -1,7 +1,7 @@
 def DiffieHellman():
-    AvaSecret = 14  
+    AvaSecret = 13  
     AudraSecret = 19 
-    SharedPrime = 9
+    SharedPrime = 7
     SharedBase = 11
     
     Z = (SharedBase ** AvaSecret) % SharedPrime
